@@ -95,7 +95,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped>/* scoped指的是這個<style>裡的內容，只限這個component用，它不會變成全域而發生css衝突。 */
 h1, h2 {
   font-weight: normal;
 }
